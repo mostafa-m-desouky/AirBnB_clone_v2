@@ -43,11 +43,11 @@ Recognizing that I am sharing a near-complete project, I additionally put
 together a small Flask app according to the specifications described in the
 application. Please take a look at this separate repository here:
 
-https://github.com/bdbaraban/lyft_apprenticeship_application
+https://github.com/mostafa-m-desouky
 
 Nonetheless, allow me to talk a little more about this AirBnB clone. This
 repository is the second iteration of the project. In the first version
-(viewable [here](https://github.com/bdbaraban/AirBnB_clone)), I, together
+(viewable [here](https://github.com/mostafa-m-desouky/AirBnB_clone_v2)), I, together
 with a cohort mate, built up the initial file storage back-end and
 console from scratch. We pair programmed for most all of this version one work.
 
