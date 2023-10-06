@@ -1,25 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-"""
-do_pack(): Generates a .tgz archive from the
-contents of the web_static folder
-do_deploy(): Distributes an archive to a web server
-deploy (): Creates and distributes an archive to a web server
-do_clean(): Deletes out-of-date archives
-"""
-
-from fabric.operations import local, run, put, sudo
-from datetime import datetime
-import os
-from fabric.api import env
-import re
-
-
-env.hosts = ['35.190.176.186', '35.196.156.157']
-
-
-def do_pack():
-=======
 '''deletes out-of-date archives, using the function do_clean'''
 import os
 from datetime import datetime
@@ -110,4 +89,3 @@ def do_clean(number=0):
         " | sort -r | tr '\\n' ' ' | cut -d ' ' -f{}-)".format(start + 1)
     ]
     run(''.join(cmd_parts))
->>>>>>> 1b70cc0e0b6b7b31e61bd1ab79d9d99cfcfb1c46

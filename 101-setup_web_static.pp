@@ -18,8 +18,6 @@ exec { 'apt-get-update':
   command => '/usr/bin/env ln -sf /data/web_static/releases/test /data/web_static/current',
 }
 -> exec {'h':
-<<<<<<< HEAD
-=======
   command => '/usr/bin/env sed -i "/listen 80 default_server/a location /hbnb_static/ { alias /data/web_static/current/;}" /etc/nginx/sites-available/default',
 }
 -> exec {'i':
@@ -28,4 +26,3 @@ exec { 'apt-get-update':
 -> exec {'g':
   command => '/usr/bin/env chown -R ubuntu:ubuntu /data',
 }
->>>>>>> 1b70cc0e0b6b7b31e61bd1ab79d9d99cfcfb1c46
